@@ -1,0 +1,220 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+ background-color: black;
+ font-family: 'Montserrat', sans-serif;
+
+}
+
+nav{
+ display: flex;
+ justify-content: space-around;
+ width: 100%;
+ align-items: center;
+ margin: 0px;
+ height: 70px;
+}
+
+/*CSS FOR HOME CONTENT */
+
+#tab-btn{
+ padding: 5px;
+ margin: 12px;
+ min-width: 100px;
+ margin-top: 70px;
+ font-size: 24px;
+ border-radius: 5px;
+ 
+}
+
+.home-content{
+ margin-top: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.home-content h1{
+ font-size: 48px;
+ color: #fff;
+}
+
+.home-content p{
+ font-size: 30px;
+ color: #fff;
+}
+
+img{
+ max-width: 800px;
+ width: 100%;
+ margin: 25px 10px;
+ margin-top: 40px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+/* css for menu content  */
+
+.menu-content{
+ width: 80%;
+ max-width: 900px;
+ height: 400px;
+ background-color: white;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 60px;
+}
+
+.menu-grid{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ justify-content: center;
+ align-items: center;
+ padding: 40px;
+}
+
+.starters, .main, .desserts{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.menu-items{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 25px;
+}
+
+.starters h1, .main h1, .desserts h1{
+ font-size: 42px;
+ font-weight: bold;
+}
+
+div{
+ font-size: 20px;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.menu-items div{
+  margin-top: 5px;
+}
+
+
+/*CSS FOR CONTACT */
+
+.contact-content{
+    width: 80%;
+ max-width: 900px;
+ height: 400px;
+ background-color: white;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 60px;
+}
+
+.contact-grid{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 60px;
+ flex-direction: column;
+}
+
+.contact-grid h1{
+ font-size: 48px;
+}
+
+.contact-items{
+  margin-top: 40px;
+}
+
+
+@media(min-width: 400px){
+
+  .home-content h1{
+   text-align: center;
+  }
+ .menu-content{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 1000px;
+ }
+
+ .starters h1, .main h1, .desserts h1{
+  margin-top: 20px;
+ }
+
+ .menu-items{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+ }
+
+ .menu-grid{
+ display: grid;
+ grid-template-columns: 1fr;
+ }
+
+ .contact-grid h1{
+  font-size: 36px;
+ }
+
+ .contact-items{
+  font-size: 16px;
+ }
+
+ .contact-grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+}
+
+@media(min-width: 700px){
+  .menu-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .menu-content{
+    max-width: 900px;
+    height: 400px;
+  }
+}
+
+
+@media(min-width: 1200px){
+ .menu-grid{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ }
+
+ .menu-content{
+    max-width: 900px;
+    height: 400px;
+ }
+
+ .contact-grid h1{
+  font-size: 48px;
+ }
+
+ .contact-items{
+  font-size: 16px;
+ }
+
+}
