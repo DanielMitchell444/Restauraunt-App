@@ -8,7 +8,7 @@ const home = () => {
   <div class = "home-content">
   <h1>The Purple Penguin</h1>
   <p>Established in 1960</p>
-  <img src = ../dist/hamburgers-with-fries-cup-sauce-wooden-tray.jpg>
+  <img src = Images/hamburgers-with-fries-cup-sauce-wooden-tray.jpg>
   </div>
   </div>
   `

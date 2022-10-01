@@ -185,10 +185,14 @@ div{
  
 }
 
-@media(min-width: 700px){
+@media(min-width: 800px){
   .menu-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+  }
+
+  .contact-grid h1{
+    font-size: 42px;
   }
 
   .menu-content{
@@ -210,7 +214,7 @@ div{
  }
 
  .contact-grid h1{
-  font-size: 48px;
+  font-size: 54px;
  }
 
  .contact-items{
