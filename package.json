@@ -10,11 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^4.0.0",
-    "webpack": "^5.74.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
     "webpack-cli": "^4.10.0"
   }
 }
-
-
-
-
